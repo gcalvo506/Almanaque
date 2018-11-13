@@ -13,5 +13,15 @@ import java.util.ArrayList;
  */
 public class Almanaque {
     private static ArrayList<Canton> cantones;
-  
+
+    public Almanaque() {
+    }
+
+    public static ArrayList<Canton> getCantones() {
+        return cantones;
+    }
+
+    public static void setCantones(ArrayList<Canton> cantones) {
+        Almanaque.cantones = cantones;
+    }  
 }
